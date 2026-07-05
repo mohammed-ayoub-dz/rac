@@ -1,0 +1,14 @@
+{
+  "name": "create-rac-app", 
+  "version": "1.0.0",
+  "description": "CLI to create ultra-lightweight C + React desktop apps",
+  "main": "bin/cli.js",
+  "bin": {
+    "create-rac-app": "./bin/cli.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "kleur": "^4.1.5"
+  }
+}
